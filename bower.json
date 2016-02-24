@@ -1,0 +1,22 @@
+{
+  "name": "palladio-standalone",
+  "authors": [
+    "Ethan Jewett <esjewett@gmail.com>"
+  ],
+  "description": "Demonstration app for Palladio components",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "BSD",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Palladio": "palladio#1.2.0-beta.05"
+  }
+}
