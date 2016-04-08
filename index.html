@@ -9,6 +9,7 @@
         <link type="text/css" href="bower_components/palladio/palladio.css" rel="stylesheet" />
         <link type="text/css" href="bower_components/palladio-timeline-component/dist/palladio-timeline-component.css" rel="stylesheet" />
         <link type="text/css" href="bower_components/palladio-facet-component/dist/palladio-facet-component.css" rel="stylesheet" />
+        <link type="text/css" href="bower_components/palladio-timespan-component/dist/palladio-timespan-component.css" rel="stylesheet" />
         <link type="text/css" href="css/standalone.css" rel="stylesheet" />
 
         <!-- Font Awesome -->
@@ -61,8 +62,9 @@
         <script src="bower_components/palladio/palladio.js"></script>
         <script src="bower_components/palladio-timeline-component/dist/palladio-timeline-component.min.js"></script>
         <script src="bower_components/palladio-facet-component/dist/palladio-facet-component.min.js"></script>
+        <script src="bower_components/palladio-timespan-component/dist/palladio-timespan-component.min.js"></script>
         <script>
-            var components = startPalladio(['palladioTimelineComponent', 'palladioFacetComponent']);
+            var components = startPalladio(['palladioTimelineComponent', 'palladioFacetComponent', 'palladioTimespanComponent']);
 
             components.loadData('sample.json', function() {
                 components.add('facet', "#facet-filter-here", {
@@ -129,7 +131,7 @@
                 setTimeout(shortTimelineFunc, 100);
             });
 
-            var components2 = startPalladio(['palladioTimelineComponent', 'palladioFacetComponent']);
+            var components2 = startPalladio(['palladioTimelineComponent', 'palladioFacetComponent', 'palladioTimespanComponent']);
 
             components2.loadData('sample-facet.json', function() {
                 components2.add('facet', "#facet-filter-here-2", {
