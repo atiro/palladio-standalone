@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "Palladio": "palladio#1.2.0-beta.05"
+    "Palladio": "palladio#1.2.0-beta.05",
+    "palladio-timeline-component": "~1.0.1"
   }
 }
