@@ -12,6 +12,7 @@
         <link type="text/css" href="bower_components/palladio-timespan-component/dist/palladio-timespan-component.css" rel="stylesheet" />
         <link type="text/css" href="bower_components/palladio-graph-component/dist/palladio-graph-component.css" rel="stylesheet" />
         <link type="text/css" href="bower_components/palladio-map-component/dist/palladio-map-component.css" rel="stylesheet" />
+        <link type="text/css" href="bower_components/palladio-table-component/dist/palladio-table-component.css" rel="stylesheet" />
         <link type="text/css" href="css/standalone.css" rel="stylesheet" />
 
         <!-- Font Awesome -->
@@ -67,8 +68,9 @@
         <script src="bower_components/palladio-timespan-component/dist/palladio-timespan-component.min.js"></script>
         <script src="bower_components/palladio-graph-component/dist/palladio-graph-component.min.js"></script>
         <script src="bower_components/palladio-map-component/dist/palladio-map-component.min.js"></script>
+        <script src="bower_components/palladio-table-component/dist/palladio-table-component.min.js"></script>
         <script>
-            var components = startPalladio(['palladioTimelineComponent', 'palladioFacetComponent', 'palladioTimespanComponent', 'palladioGraphComponent', 'palladioMapComponent']);
+            var components = startPalladio(['palladioTimelineComponent', 'palladioFacetComponent', 'palladioTimespanComponent', 'palladioGraphComponent', 'palladioMapComponent', 'palladioTableComponent']);
 
             components.loadData('sample.json', function() {
                 components.add('facet', "#facet-filter-here", {
